@@ -35,9 +35,15 @@
   padding: 0px 20px;
 }
 
-.header span {
+.today-date {
+  display: inline-block;
+}
+
+.likes {
+  display: inline-block;
   color: rgb(172, 97, 233);
   font-weight: lighter;
+  padding-left: 10px;
 }
 
 .header p {
@@ -68,25 +74,23 @@
   font-size: 2.5rem;
 }
 
-ul {
+.cal-list {
   margin: 0;
   padding: 0;
 }
 
-li {
+.list {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
 
-.list:nth-child(odd) {
-  background-color: rgb(172, 97, 233);
-  color: white;
-}
-
 .list:nth-child(even) {
   background-color: rgb(198, 156, 233);
-  color: white;
+}
+
+.list:nth-child(odd) {
+  background-color: rgb(172, 97, 233);
 }
 
 .date {
@@ -95,22 +99,25 @@ li {
   align-self: center;
 }
 
-.date p {
+.date h3 {
   color: #444;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: lighter;
   margin: 0;
 }
 
 .date h2 {
   font-size: 3rem;
   margin: 0;
+  color: white;
 }
 
-.desc {
+.list p {
   align-self: center;
   padding-right: 30px;
   font-size: 1.2rem;
   font-weight: lighter;
+  color: white;
 }
 
 .footer {
